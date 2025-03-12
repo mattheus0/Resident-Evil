@@ -13,13 +13,20 @@ body{
     width: 100%;
     height: 100%;
     position: absolute;
-    z-index: ;
+    overflow: hidden;
+    z-index: 2;
 }
 .video video{
-    width: ;
-    height: ;
-    overflow:;
+    width: 100vw;
+    height: 100vh;
+    overflow:hidden;
+    object-fit: cover;
 }
+
 .main{
+    background-color: aqua;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
 
 }
