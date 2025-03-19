@@ -1,43 +1,11 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+.mother-box{    
     width: 100vw;
     height: 100vh;
     background-color: rgba(0, 255, 255, 0.086);
-}
-.video{
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    overflow: hidden;
-    z-index: 0;
-}
-.video video{
-    width: 100vw;
-    height: 100vh;
-    overflow:hidden;
-    object-fit: cover;
-}
-
-.main{
-    background-color: rgba(4, 16, 16, 0);
-    width: 80vw;
-    height: 100%;
-    position: absolute;
-    z-index: 1;
-    overflow: scroll;
-    scrollbar-width: none; 
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-.sobre{
-    margin-top: 100vh;
-    height: 100vh;
-    width: 100vw;
-    background-color: aqua;
 }
